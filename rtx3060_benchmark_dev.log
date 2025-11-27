@@ -1,0 +1,40 @@
+GPU: NVIDIA GeForce RTX 3060
+GPU Memory: 12.0 GB
+
+Python reference renderer (measured on RTX 3060 12GB):
+  • 1K Gaussians @ 256x256: ~0.4–0.5 FPS
+  • 2K Gaussians @ 256x256: ~0.2–0.25 FPS
+
+Note: these numbers are for the readable Python reference renderer. For real-time results we bind to optimized 3DGS CUDA kernels.
+[sweep] Running 1 configurations...
+
+[sweep] Config 1/1: 500 Gaussians @ 256x256
+
+>>> Experiment: 500 Gaussians, 256x256, 5 frames on cuda
+[warmup] 1000 RF points, 3 iterations...
+[warmup] Done. Active Gaussians: 500
+[render] 5 frames at 256x256
+[render] frame 1/5 (20%)
+[render] frame 2/5 (40%)
+[render] frame 3/5 (60%)
+[render] frame 4/5 (80%)
+[render] frame 5/5 (100%)
+
+=== Render Benchmark Results ===
+Resolution       : 256 x 256
+Frames           : 5
+Mean frame time  : 858.50 ms  (1.2 FPS)
+Best frame time  : 843.68 ms  (1.2 FPS)
+Worst frame time : 873.35 ms  (1.1 FPS)
+Wall-clock (loop): 4.30 s
+Max GPU memory   : 13.3 MB
+
+================================================================================
+RTX 3060 12GB CAPABILITY SUMMARY
+================================================================================
+Gaussians    Resolution   Mean FPS     Worst FPS    Memory (MB) 
+--------------------------------------------------------------------------------
+500          256x256      1.1648279396252395 1.1450117523088306 13.34814453125
+================================================================================
+
+RECOMMENDATIONS:

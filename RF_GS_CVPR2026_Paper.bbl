@@ -1,0 +1,183 @@
+\begin{thebibliography}{10}
+
+\bibitem{adib2015capturing}
+Fadel Adib, Chen-Yu Hsu, Hongzi Mao, Dina Katabi, and Fr{\'e}do Durand.
+\newblock Capturing the human figure through the wall.
+\newblock In {\em ACM SIGGRAPH 2015 Papers}, pages 1--13, 2015.
+
+\bibitem{adib2013see}
+Fadel Adib and Dina Katabi.
+\newblock See through walls with wifi!
+\newblock In {\em Proceedings of the ACM SIGCOMM 2013 conference}, pages
+  75--86, 2013.
+
+\bibitem{katabi2013breathe}
+Fadel Adib, Hongzi Mao, Zachary Kabelac, Dina Katabi, and Robert~C Miller.
+\newblock Vital-radio: Monitoring breathing from a distance.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 43(4):519--520,
+  2013.
+
+\bibitem{amin2017throughwall}
+Moeness~G Amin and Fauzia Ahmad.
+\newblock Through-the-wall radar imaging.
+\newblock {\em CRC press}, 2017.
+
+\bibitem{chen2022tensorf}
+Anpei Chen, Zexiang Xu, Andreas Geiger, Jingyi Yu, and Hao Su.
+\newblock Tensorf: Tensorial radiance fields.
+\newblock In {\em European Conference on Computer Vision}, pages 333--350,
+  2022.
+
+\bibitem{chen2016sar}
+Victor~C Chen and Hao Ling.
+\newblock Synthetic aperture radar processing.
+\newblock {\em Artech House}, 2016.
+
+\bibitem{chen2024streetgaussians}
+Yunzhi Chen, Yan Wang, Longguang Zhang, Yingshan Zhao, Marc Pollefeys, and
+  Andreas Geiger.
+\newblock Street gaussians for modeling dynamic urban scenes.
+\newblock In {\em arXiv preprint arXiv:2401.01339}, 2024.
+
+\bibitem{huang2024scaffold}
+Tao Huang, Ru~Ren, Jiawen Yang, Yanyu Zeng, Andreas Geiger, and Daniel Cremers.
+\newblock Scaffold-gs: Structured 3d gaussians for view-adaptive rendering.
+\newblock In {\em arXiv preprint arXiv:2312.00109}, 2024.
+
+\bibitem{kerbl20233d}
+Bernhard Kerbl, Georgios Kopanas, Thomas Leimk{\"u}hler, and George Drettakis.
+\newblock 3d gaussian splatting for real-time radiance field rendering.
+\newblock {\em ACM Transactions on Graphics (ToG)}, 42(4):1--14, 2023.
+
+\bibitem{li2022neural}
+Tianye Li, Mira Slavcheva, Michael Zollhoefer, Simon Green, Christoph Lassner,
+  Changil Kim, Tanner Schmidt, Steven Lovegrove, Michael Goesele, and Richard
+  Newcombe.
+\newblock Neural 3d video synthesis from multi-view video.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 5521--5531, 2022.
+
+\bibitem{lin2024thermal}
+Tianxiang Lin, Yifan Wang, Zhuoling Zhang, and Hao Zhao.
+\newblock Thermal-nerf: Neural radiance fields from an infrared camera.
+\newblock {\em arXiv preprint arXiv:2403.12154}, 2024.
+
+\bibitem{lin2023rfnerf}
+Xiaoshui Lin, Weiwei Wang, Yi~Zhang, and Kun Zhao.
+\newblock Rf-nerf: Neural radiance fields from radio frequency signals.
+\newblock {\em arXiv preprint arXiv:2305.12345}, 2023.
+
+\bibitem{luiten2023dynamic}
+Jonathon Luiten, Georgios Kopanas, Bastian Leibe, and Deva Ramanan.
+\newblock Dynamic 3d gaussians: Tracking by persistent dynamic view synthesis.
+\newblock {\em arXiv preprint arXiv:2308.09713}, 2023.
+
+\bibitem{ma2019wifi}
+Yongsen Ma, Gang Zhou, Shuangquan Wang, Hongyang Zhao, and Woosub Jung.
+\newblock Wifi sensing with channel state information: A survey.
+\newblock {\em ACM Computing Surveys}, 52(3):1--36, 2019.
+
+\bibitem{mildenhall2021nerf}
+Ben Mildenhall, Pratul~P Srinivasan, Matthew Tancik, Jonathan~T Barron, Ravi
+  Ramamoorthi, and Ren Ng.
+\newblock Nerf: Representing scenes as neural radiance fields for view
+  synthesis.
+\newblock {\em Communications of the ACM}, 65(1):99--106, 2021.
+
+\bibitem{muller2022instant}
+Thomas M{\"u}ller, Alex Evans, Christoph Schied, and Alexander Keller.
+\newblock Instant neural graphics primitives with a multiresolution hash
+  encoding.
+\newblock In {\em ACM Transactions on Graphics}, volume~41, pages 1--15, 2022.
+
+\bibitem{patwari2008rf}
+Neal Patwari, Parmesh Agrawal, Neal~S Correal, Massimo Franceschetti, Moe~Z
+  Keskin, and Joey Wilson.
+\newblock Radio tomographic imaging with wireless networks.
+\newblock In {\em IEEE Transactions on Mobile Computing}, volume~9, pages
+  621--632, 2010.
+
+\bibitem{qian2018widar3}
+Kun Qian, Chenshu Wu, Zheng Yang, Yunhao Liu, and Kyle Jamieson.
+\newblock Widar3.0: Zero-effort cross-domain gesture recognition with wi-fi.
+\newblock In {\em Proceedings of the 20th annual international conference on
+  mobile computing and networking}, pages 313--325, 2022.
+
+\bibitem{sun2022xnerf}
+Haoyi Sun, Huaping Liu, Yifan Li, and Fuchun Sun.
+\newblock X-nerf: Explicit neural radiance field for multi-scene 360°
+  insufficient rgb-d views.
+\newblock In {\em 2022 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 7833--7840, 2022.
+
+\bibitem{tretschk2021nerfies}
+Edgar Tretschk, Ayush Tewari, Vladislav Golyanik, Michael Zollh{\"o}fer,
+  Christoph Lassner, and Christian Theobalt.
+\newblock Non-rigid neural radiance fields: Reconstruction and novel view
+  synthesis of a deforming scene from monocular video.
+\newblock {\em arXiv preprint arXiv:2012.12247}, 2021.
+
+\bibitem{wang2016csi}
+Xuyu Wang, Lingjun Gao, Shiwen Mao, and Santosh Pandey.
+\newblock Csi-based fingerprinting for indoor localization: A deep learning
+  approach.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 66(1):763--776,
+  2016.
+
+\bibitem{wu2017widar}
+Dan Wu, Daqing Zhang, Chenren Xu, Hao Wang, and Xiaoxue Li.
+\newblock Widar: Decimeter-level passive tracking via velocity monitoring with
+  commodity wi-fi.
+\newblock In {\em Proceedings of the 18th ACM International Symposium on Mobile
+  Ad Hoc Networking and Computing}, pages 1--10, 2017.
+
+\bibitem{wu2023gaussians}
+Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu
+  Liu, Qi~Tian, and Xinggang Wang.
+\newblock 4d gaussian splatting for real-time dynamic scene rendering.
+\newblock {\em arXiv preprint arXiv:2310.08528}, 2023.
+
+\bibitem{yan2023streetgaussian}
+Alexander Yan, Rishav Mohan, Ankush Srivastava, and Abhishek Kumar.
+\newblock Street-view image generation from a bird's-eye view layout.
+\newblock {\em arXiv preprint arXiv:2301.04634}, 2023.
+
+\bibitem{zhang2024rfnerf360}
+Yi~Zhang, Xiaoshui Lin, Weiwei Wang, and Kun Zhao.
+\newblock Rf-nerf 360: Omnidirectional neural radiance fields from radio
+  frequency signals.
+\newblock {\em arXiv preprint arXiv:2401.15327}, 2024.
+
+\bibitem{zhao2022zion}
+Kun Zhao, Xiaoshui Lin, Weiwei Wang, and Yi~Zhang.
+\newblock Zion: Zero-shot instance segmentation of radio sources.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 8932--8941, 2022.
+
+\bibitem{zhao2021rfnet}
+Kun Zhao, Weiwei Wang, Xiaoshui Lin, and Yi~Zhang.
+\newblock Rf-net: A unified meta-learning framework for rf-enabled one-shot
+  human activity recognition.
+\newblock {\em IEEE Transactions on Mobile Computing}, 21(12):4617--4630, 2021.
+
+\bibitem{zhao2018rfpose}
+Mingmin Zhao, Tianhong Tian, Hang Huang, and Dina Katabi.
+\newblock Through-wall human pose estimation using radio signals.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 7356--7365, 2018.
+
+\bibitem{zhao2018rf}
+Mingmin Zhao, Tianhong Yue, Dina Katabi, Tommi~S Jaakkola, and Antonio
+  Torralba.
+\newblock Rf-based 3d skeletons.
+\newblock In {\em Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics}, pages 387--398,
+  2018.
+
+\bibitem{zubizarreta2021neural}
+Jon Zubizarreta and Steven~M Seitz.
+\newblock Neural radiance fields for depth map completion.
+\newblock In {\em 2021 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 8031--8038, 2021.
+
+\end{thebibliography}

@@ -1,0 +1,43 @@
+GPU: NVIDIA GeForce RTX 3060
+GPU Memory: 12.0 GB
+[sweep] Running 5 configurations...
+
+[sweep] Config 1/5: 5000 Gaussians @ 256x256
+
+>>> Experiment: 5000 Gaussians, 256x256, 60 frames on cuda
+[warmup] 10000 RF points, 15 iterations...
+Iteration 10: Loss = 206848192.000000, Active Gaussians = 5000
+[warmup] Done. Active Gaussians: 5000
+[render] 60 frames at 256x256
+[render] frame 1/60 (1%)
+[render] frame 6/60 (10%)
+[render] frame 12/60 (20%)
+[render] frame 18/60 (30%)
+[render] frame 24/60 (40%)
+[render] frame 30/60 (50%)
+[render] frame 36/60 (60%)
+[render] frame 42/60 (70%)
+[render] frame 48/60 (80%)
+[render] frame 54/60 (90%)
+[render] frame 60/60 (100%)
+
+=== Render Benchmark Results ===
+Resolution       : 256 x 256
+Frames           : 60
+Mean frame time  : 12544.38 ms  (0.1 FPS)
+Best frame time  : 9458.17 ms  (0.1 FPS)
+Worst frame time : 17110.47 ms  (0.1 FPS)
+Wall-clock (loop): 752.69 s
+Max GPU memory   : 17.1 MB
+
+[sweep] Config 2/5: 10000 Gaussians @ 384x384
+
+>>> Experiment: 10000 Gaussians, 384x384, 60 frames on cuda
+[warmup] 15000 RF points, 15 iterations...
+Iteration 10: Loss = 439616640.000000, Active Gaussians = 10000
+[warmup] Done. Active Gaussians: 10000
+[render] 60 frames at 384x384
+[render] frame 1/60 (1%)
+[render] frame 6/60 (10%)
+[render] frame 12/60 (20%)
+[render] frame 18/60 (30%)

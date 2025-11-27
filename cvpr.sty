@@ -1,0 +1,71 @@
+% CVPR style file for LaTeX
+% This is a simplified version of the CVPR style
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cvpr}[2023/01/01 v1.0 CVPR style package]
+
+% Set up the page layout
+\RequirePackage[letterpaper,margin=1in]{geometry}
+\RequirePackage{times}
+\RequirePackage{helvet}
+\RequirePackage{courier}
+
+% Two column layout
+\RequirePackage{multicol}
+\setlength{\columnsep}{0.25in}
+
+% Title formatting
+\RequirePackage{titlesec}
+
+% Define the final copy command (does nothing for now)
+\newcommand{\cvprfinalcopy}{}
+
+% Page numbering
+\pagestyle{empty}
+
+% Fonts
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\ttdefault}{pcr}
+
+% Section formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection.}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\thesubsection.}{1em}{}
+
+\titleformat{\paragraph}
+  {\normalfont\normalsize\bfseries}
+  {}{0em}{}
+
+% Reduce spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Abstract environment
+\renewenvironment{abstract}
+{\small
+ \begin{center}
+ \textbf{Abstract}
+ \end{center}
+ \begin{quote}}
+{\end{quote}}
+
+% Title formatting
+\renewcommand{\maketitle}{%
+  \begin{center}
+    {\LARGE \@title \par}
+    \vskip 1.5em
+    {\large \@author \par}
+    \vskip 1em
+  \end{center}
+  \par
+}
+
+% Bibliography style
+\bibliographystyle{plain}
+
+\endinput

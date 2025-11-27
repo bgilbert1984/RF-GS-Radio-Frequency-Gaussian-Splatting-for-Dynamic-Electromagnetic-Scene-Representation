@@ -1,0 +1,149 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: RF_GS_CVPR2026_Paper.aux
+The style file: plain.bst
+Database file #1: references.bib
+Repeated entry---line 261 of file references.bib
+ : @article{kerbl20233d
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 272 of file references.bib
+ : @article{mildenhall2021nerf
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 283 of file references.bib
+ : @inproceedings{lin2023rfnerf
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 291 of file references.bib
+ : @article{wu2023gaussians
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 298 of file references.bib
+ : @inproceedings{muller2022instant
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 309 of file references.bib
+ : @inproceedings{wu2017widar
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 317 of file references.bib
+ : @inproceedings{adib2015capturing
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 325 of file references.bib
+ : @article{zhao2021rfnet
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 336 of file references.bib
+ : @inproceedings{zhao2022zion
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 344 of file references.bib
+ : @inproceedings{li2022neural
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 352 of file references.bib
+ : @article{tretschk2021nerfies
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 359 of file references.bib
+ : @inproceedings{chen2022tensorf
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 368 of file references.bib
+ : @inproceedings{zubizarreta2021neural
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 377 of file references.bib
+ : @article{lin2024thermal
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 384 of file references.bib
+ : @inproceedings{sun2022xnerf
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 393 of file references.bib
+ : @article{luiten2023dynamic
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 400 of file references.bib
+ : @inproceedings{chen2024streetgaussians
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 407 of file references.bib
+ : @article{yan2023streetgaussian
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 414 of file references.bib
+ : @inproceedings{huang2024scaffold
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 421 of file references.bib
+ : @inproceedings{adib2013see
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 429 of file references.bib
+ : @article{katabi2013breathe
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 440 of file references.bib
+ : @inproceedings{zhao2018rf
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 457 of file references.bib
+ : @inproceedings{zhang2024rfnerf360
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 465 of file references.bib
+ : @article{ma2019wifi
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 476 of file references.bib
+ : @inproceedings{qian2018widar3
+ :                              ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in muller2022instant
+Warning--can't use both volume and number fields in patwari2008rf
+You've used 30 entries,
+            2118 wiz_defined-function locations,
+            653 strings with 9981 characters,
+and the built_in function-call counts, 13005 in all, are:
+= -- 1224
+> -- 790
+< -- 15
++ -- 310
+- -- 280
+* -- 956
+:= -- 2103
+add.period$ -- 90
+call.type$ -- 30
+change.case$ -- 230
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 479
+empty$ -- 897
+format.name$ -- 280
+if$ -- 2717
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 30
+newline$ -- 153
+num.names$ -- 60
+pop$ -- 261
+preamble$ -- 1
+purify$ -- 200
+quote$ -- 0
+skip$ -- 378
+stack$ -- 0
+substring$ -- 694
+swap$ -- 162
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 2
+while$ -- 111
+width$ -- 32
+write$ -- 323
+(There were 25 error messages)

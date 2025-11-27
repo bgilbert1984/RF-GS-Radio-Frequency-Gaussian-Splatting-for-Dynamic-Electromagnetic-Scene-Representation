@@ -1,0 +1,68 @@
+GPU: NVIDIA GeForce RTX 3060
+GPU Memory: 12.0 GB
+[sweep] Running 2 configurations...
+
+[sweep] Config 1/2: 1000 Gaussians @ 256x256
+
+>>> Experiment: 1000 Gaussians, 256x256, 10 frames on cuda
+[warmup] 2000 RF points, 15 iterations...
+Iteration 10: Loss = 9092295.000000, Active Gaussians = 1000
+[warmup] Done. Active Gaussians: 1000
+[render] 10 frames at 256x256
+[render] frame 1/10 (10%)
+[render] frame 2/10 (20%)
+[render] frame 3/10 (30%)
+[render] frame 4/10 (40%)
+[render] frame 5/10 (50%)
+[render] frame 6/10 (60%)
+[render] frame 7/10 (70%)
+[render] frame 8/10 (80%)
+[render] frame 9/10 (90%)
+[render] frame 10/10 (100%)
+
+=== Render Benchmark Results ===
+Resolution       : 256 x 256
+Frames           : 10
+Mean frame time  : 2279.15 ms  (0.4 FPS)
+Best frame time  : 1946.03 ms  (0.5 FPS)
+Worst frame time : 2557.82 ms  (0.4 FPS)
+Wall-clock (loop): 22.80 s
+Max GPU memory   : 13.8 MB
+
+[sweep] Config 2/2: 2000 Gaussians @ 256x256
+
+>>> Experiment: 2000 Gaussians, 256x256, 10 frames on cuda
+[warmup] 4000 RF points, 15 iterations...
+Iteration 10: Loss = 35041328.000000, Active Gaussians = 2000
+[warmup] Done. Active Gaussians: 2000
+[render] 10 frames at 256x256
+[render] frame 1/10 (10%)
+[render] frame 2/10 (20%)
+[render] frame 3/10 (30%)
+[render] frame 4/10 (40%)
+[render] frame 5/10 (50%)
+[render] frame 6/10 (60%)
+[render] frame 7/10 (70%)
+[render] frame 8/10 (80%)
+[render] frame 9/10 (90%)
+[render] frame 10/10 (100%)
+
+=== Render Benchmark Results ===
+Resolution       : 256 x 256
+Frames           : 10
+Mean frame time  : 4388.00 ms  (0.2 FPS)
+Best frame time  : 3543.53 ms  (0.3 FPS)
+Worst frame time : 4776.70 ms  (0.2 FPS)
+Wall-clock (loop): 43.88 s
+Max GPU memory   : 14.6 MB
+
+================================================================================
+RTX 3060 12GB CAPABILITY SUMMARY
+================================================================================
+Gaussians    Resolution   Mean FPS     Worst FPS    Memory (MB) 
+--------------------------------------------------------------------------------
+1000         256x256      0.4387607966665802 0.39095776685151457 13.765625   
+2000         256x256      0.22789435553006918 0.20934946648205585 14.5927734375
+================================================================================
+
+RECOMMENDATIONS:

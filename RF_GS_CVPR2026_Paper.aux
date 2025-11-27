@@ -1,0 +1,116 @@
+\relax 
+\citation{mildenhall2021nerf}
+\citation{kerbl20233d}
+\citation{lin2023rfnerf}
+\citation{zhang2024rfnerf360}
+\citation{mildenhall2021nerf}
+\citation{li2022neural}
+\citation{tretschk2021nerfies}
+\citation{muller2022instant}
+\citation{chen2022tensorf}
+\citation{zubizarreta2021neural}
+\citation{lin2024thermal}
+\citation{sun2022xnerf}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
+\citation{kerbl20233d}
+\citation{wu2023gaussians}
+\citation{luiten2023dynamic}
+\citation{chen2024streetgaussians}
+\citation{yan2023streetgaussian}
+\citation{huang2024scaffold}
+\citation{adib2013see}
+\citation{patwari2008rf}
+\citation{katabi2013breathe}
+\citation{amin2017throughwall}
+\citation{chen2016sar}
+\citation{ma2019wifi}
+\citation{zhao2018rf}
+\citation{qian2018widar3}
+\citation{wang2016csi}
+\citation{zhao2021rfnet}
+\citation{zhao2018rfpose}
+\citation{lin2023rfnerf}
+\citation{zhang2024rfnerf360}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {RF-GS enables visually plausible 3D reconstruction from Wi-Fi signals alone.} Left: conventional 3D Gaussian Splatting trained on RGB images. Right: our RF-GS trained solely on Channel State Information (CSI) from commodity Wi-Fi routers successfully recovers geometry, motion, and scene structure of a moving human—no cameras, no active illumination required. Note that RGB visualization is generated via learned neural shader for display purposes; the core reconstruction operates purely on electromagnetic observations. The reconstructed scene maintains temporal coherence and structural detail despite operating on sparse, noisy RF measurements.}}{2}{}\protected@file@percent }
+\newlabel{fig:teaser}{{1}{2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Neural Scene Representations}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Classical RF Imaging and Sensing}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Neural RF-Based 3D Reconstruction}{2}{}\protected@file@percent }
+\citation{zhao2022zion}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Explicit vs. Implicit Representations for Non-Optical Domains}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Preliminaries: 3D Gaussian Splatting}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}RF Measurement Model}{3}{}\protected@file@percent }
+\newlabel{sec:rf_model}{{3.2}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}RF-GS Scene Representation}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}RF-Specific Loss Function}{3}{}\protected@file@percent }
+\citation{kerbl20233d}
+\citation{zhao2022zion}
+\citation{wu2017widar}
+\citation{adib2015capturing}
+\citation{lin2023rfnerf}
+\citation{lin2023rfnerf}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Adaptive RF Density Control}{4}{}\protected@file@percent }
+\newlabel{sec:density_control}{{3.5}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Implementation Details}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Real-time RF Rendering}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets and Preprocessing}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation Protocol}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Main Results}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Ablation Studies}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Real-World Validation and Analysis}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Real-World Deployment}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Dynamic Scene Analysis}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Cross-Modal Analysis}{5}{}\protected@file@percent }
+\newlabel{sec:cross_modal_analysis}{{4.8}{5}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {Quantitative comparison on Synthetic RF-Blender dataset.} RF-GS significantly outperforms all baselines in reconstruction quality while being 35× faster to train and 200× faster to render than RF-NeRF. Error bars show standard deviation across 5 runs. All methods tuned for optimal RF performance.}}{6}{}\protected@file@percent }
+\newlabel{tab:main_results}{{1}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Qualitative comparison on dynamic human motion.} Our RF-GS captures fine-grained details and maintains temporal coherence, while baselines suffer from blurring, artifacts, and missing limbs. Scene reconstructed from Wi-Fi CSI only.}}{6}{}\protected@file@percent }
+\newlabel{fig:qualitative}{{2}{6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Ablation study} showing the importance of each RF-specific component. Standard gradient-based densification performs poorly (-9.6 dB), confirming the need for RF-specific adaptations.}}{6}{}\protected@file@percent }
+\newlabel{tab:ablation}{{2}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Applications and Future Work}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Immediate Applications}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Real-world deployment with commodity Wi-Fi.} Top: Four Wi-Fi routers provide CSI measurements. Bottom: Real-time reconstruction of two people walking, captured through walls with no line-of-sight required. Achieves 120+ fps on RTX 4090.}}{6}{}\protected@file@percent }
+\newlabel{fig:realworld}{{3}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Limitations and Future Directions}{6}{}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{references}
+\bibcite{adib2015capturing}{1}
+\bibcite{adib2013see}{2}
+\bibcite{katabi2013breathe}{3}
+\bibcite{amin2017throughwall}{4}
+\bibcite{chen2022tensorf}{5}
+\bibcite{chen2016sar}{6}
+\bibcite{chen2024streetgaussians}{7}
+\bibcite{huang2024scaffold}{8}
+\bibcite{kerbl20233d}{9}
+\bibcite{li2022neural}{10}
+\bibcite{lin2024thermal}{11}
+\bibcite{lin2023rfnerf}{12}
+\bibcite{luiten2023dynamic}{13}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Temporal coherence analysis.} RF-GS maintains consistent Gaussian positions across frames while adapting density to motion. Graph shows number of active Gaussians over time for a walking sequence.}}{7}{}\protected@file@percent }
+\newlabel{fig:temporal}{{4}{7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \textbf  {Performance across RF modalities.} RF-GS generalizes well to different frequency bands and sensing approaches.}}{7}{}\protected@file@percent }
+\newlabel{tab:cross_modal}{{3}{7}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{7}{}\protected@file@percent }
+\bibcite{ma2019wifi}{14}
+\bibcite{mildenhall2021nerf}{15}
+\bibcite{muller2022instant}{16}
+\bibcite{patwari2008rf}{17}
+\bibcite{qian2018widar3}{18}
+\bibcite{sun2022xnerf}{19}
+\bibcite{tretschk2021nerfies}{20}
+\bibcite{wang2016csi}{21}
+\bibcite{wu2017widar}{22}
+\bibcite{wu2023gaussians}{23}
+\bibcite{yan2023streetgaussian}{24}
+\bibcite{zhang2024rfnerf360}{25}
+\bibcite{zhao2022zion}{26}
+\bibcite{zhao2021rfnet}{27}
+\bibcite{zhao2018rfpose}{28}
+\bibcite{zhao2018rf}{29}
+\bibcite{zubizarreta2021neural}{30}
+\gdef \@abspage@last{8}

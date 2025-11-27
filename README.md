@@ -93,4 +93,4 @@ This work is part of a series extractable from the neural-gaussian-splats.py cod
 
 ## Contact
 
-[Add contact information for corresponding author]
+Ben Gilbert - Text and Call me at 832-654-9435 | https://172-234-197-23.ip.linodeusercontent.com/?page_id=14
